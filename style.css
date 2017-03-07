@@ -22,3 +22,28 @@
 				caption-side: bottom;
 				text-align: center;
 			}
+			measurements number{
+				display: table-cell;
+				border: 1px solid black;
+				padding: 3px;
+			}
+			measurements {
+				display: table;
+				border-collapse: collapse;
+				margin: auto;
+				caption-side: top;
+				text-align: center;
+			}
+			measurements item {
+				display: table-row;
+			}
+			measurements time {
+				display :table-cell;
+				border: 1px solid black;
+				padding: 3px;
+			}
+			measurements value{
+				border: 1px solid black;
+				display :table-cell;
+				padding: 3px;
+			}
