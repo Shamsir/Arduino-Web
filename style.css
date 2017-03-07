@@ -1,0 +1,27 @@
+
+			.table{
+				display: table;
+				caption-side: top;
+				border: 1px solid black;
+				border-collapse: collapse;
+				margin: auto;
+			}
+			.table-row{
+				display: table-row;
+				border: inherit;
+				border-collapse: inherit;
+			}
+			.table-cell{
+				display: table-cell;
+				border: inherit;
+				border-collapse: inherit;
+				text-align: center;
+				padding: 1px;
+			}
+			.table-caption{
+				caption-side: bottom;
+				text-align: center;
+			}
+			td{
+				text-align: center;
+			}
