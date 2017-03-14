@@ -1,38 +1,10 @@
-
-			.table{
-				display: table;
-				caption-side: top;
-				border: 1px solid black;
-				border-collapse: collapse;
-				margin: auto;
-			}
-			.table-row{
-				display: table-row;
-				border: inherit;
-				border-collapse: inherit;
-			}
-			.table-cell{
-				display: table-cell;
-				border: inherit;
-				border-collapse: inherit;
-				text-align: center;
-				padding: 1px;
-			}
-			.table-caption{
-				caption-side: bottom;
-				text-align: center;
-			}
-			measurements number{
-				display: table-cell;
-				border: 1px solid black;
-				padding: 3px;
-			}
 			measurements {
 				display: table;
 				border-collapse: collapse;
 				margin: auto;
 				caption-side: top;
 				text-align: center;
+
 			}
 			measurements item {
 				display: table-row;
@@ -43,7 +15,12 @@
 				padding: 3px;
 			}
 			measurements value{
-				border: 1px solid black;
 				display :table-cell;
+				border: 1px solid black;
+				padding: 3px;
+			}
+			measurements number{
+				display: table-cell;
+				border: 1px solid black;
 				padding: 3px;
 			}
